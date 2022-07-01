@@ -1,0 +1,88 @@
+
+/*заднимй фон*/
+body {
+    background-color: #A5BEFF;  
+}
+
+/*логотип*/
+img {
+
+    position: absolute;
+    width: 550px;
+    height: 200px;
+    left: 120px;
+    top: 10px;
+}
+
+/*Заголовок сайта*/
+h1 {
+        
+    position: absolute;
+    width: 650px;
+    height: 10px;
+    left: 138px;
+    top: 380px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 100px;
+    display: flex;
+    align-items: center;
+
+    color: #2F1245;
+}
+
+/*линия*/
+.line{
+
+    position: absolute;
+    width: 580px;
+    height: 0px;
+    left: 138px;
+    top: 470px;
+    
+    border: 1px solid #713939;
+    transform: matrix(1, 0, 0, 1, 0, 0); 
+}
+
+/*фоновая картинка робота*/
+.robot{
+
+    position: absolute;
+    width: 1015px;
+    height: 800px;
+    left: 500px;
+    top: -2px;
+    filter: contrast(1.3);
+}
+
+
+.menu{
+
+    width: 100%;
+	display: table;
+
+}
+
+.menu ul{
+
+    list-style: none;
+    display: table-row;
+
+}
+
+.menu li {
+	display: table-cell;
+	position: relative;
+	background: #2767A0;
+}
+
+.menu a{
+
+    text-decoration: none; 
+    /*background:#44d7ff;*/
+    font-size: 28px;
+    color: #2F1245;
+}
