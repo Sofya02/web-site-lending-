@@ -197,6 +197,7 @@ h4{
 .menu li a{
 
     text-decoration: none; /*убираем подчеркивание текста ссылок*/
+    font-family: 'Glegoo';
     font-size: 28px;
     font-weight: bolder;
     color: #2F1245;
@@ -252,5 +253,28 @@ h4{
 	padding: 0;/*расстояние между пунктами выпадающего меню*/
 	background: rgb(190, 230, 248);
 	text-align: left;
+}
+
+.Software_engineering
+{
+    position: absolute;
+
+}
+/*Картинка*/
+.Prog_in {
+
+    width: 330px;
+    height: 300px;
+    left: 170px;
+    top: 900px;
+}
+/*Напрвления*/
+.Directions{
+
+    width: 800px;
+    height: 300px;
+    left: 578px;
+    top: 885px;
+
 }
 
