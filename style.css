@@ -27,7 +27,6 @@ h1 {
     top: 380px;
 
     font-family: 'Glegoo';
-    /*font-family: 'Montserrat', sans-serif;*/
     font-style: normal;
     font-weight: bold;
     font-size: 48px;
@@ -59,7 +58,7 @@ h1 {
     height: 800px;
     left: 500px;
     top: -2px;
-    filter: contrast(1.3);/*drop-shadow()*/
+    mix-blend-mode: color-burn;
 }
 
 
@@ -174,7 +173,7 @@ h4{
     position: absolute;
     width: 550px;
     height: 10px;
-    left: 720px;
+    left: 715px;
     top: -1px;
 	display: table;
 
@@ -277,5 +276,172 @@ h4{
     top: 885px;
 
 }
+   
+    .DierctSoftEng1{
 
-/*https://html5book.ru/mnogourovnevoe-vypadayushee-menu/*/
+        position: absolute;
+        left: 180px;
+        top: 1250px;
+
+    }
+
+    
+    .DierctSoftEng2{
+
+        position: absolute;
+        left: 180px;
+        top: 1400px;
+
+    }
+      
+    table {
+
+        font-family: 'Glegoo';
+        font-style:normal;
+        font-size: 20px;
+        width: 1240px;
+        text-transform:uppercase;/*текст из заглавных букв*/
+        border-collapse: collapse;
+        text-align: left;
+
+    }
+
+    th {
+
+        font-weight: normal;
+    }
+    td {
+
+        vertical-align: top; /* Выравнивание по верхнему краю ячейки */
+        transition: .3s linear;
+        width:300px;
+        line-height: 30px;
+
+    }
+    
+   /**/
+.bakalavr {
+
+    position: absolute;
+    top: 1670px;
+    left: 240px;
+}
+
+.cpu{
+
+    top:10px;
+    width: 450px;
+    height: 450px;
+    left:-10px;
+    mix-blend-mode: color-dodge;
+}
+
+.analytics{
+
+    top:400px;
+    width: 450px;
+    height: 450px;
+    left:800px;
+    mix-blend-mode: color-dodge;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.bak{
+
+    font-family: 'Glegoo';
+    font-size: 28px;
+    text-transform:uppercase;/*текст из заглавных букв*/
+}
+
+.an{
+
+    font-family: 'Glegoo';
+    font-size: 20px;
+    text-transform:uppercase;/*текст из заглавных букв*/
+    color:#fff;
+    left: -20px;
+    top:100px;
+
+}
+
+
+/*Магистратура1*/
+.mag1 {
+
+    position: absolute;
+    top: 2670px;
+    left: 190px;
+}
+
+.program{
+
+    top:10px;
+    width: 450px;
+    height: 450px;
+    left:-10px;
+    mix-blend-mode: color-dodge;
+}
+
+.servers{
+
+    top:250px;
+    width: 450px;
+    height: 450px;
+    left:800px;
+    mix-blend-mode: soft-light;
+    filter: alpha(Opacity=35); /* Полупрозрачность для IE */
+    opacity: 0.35; /* Полупрозрачность для других браузеров */ 
+}
+
+/*Магистратура1*/
+.mag2 {
+
+    position: absolute;
+    top: 3470px;
+    left: 70px;
+}
+
+.chip{
+
+    top:10px;
+    width: 450px;
+    height: 450px;
+    left:-10px;
+    mix-blend-mode: screen;
+}
+
+.big-data{
+
+    top:450px;
+    width: 450px;
+    height: 450px;
+    left:950px;
+    mix-blend-mode: soft-light;
+    filter: alpha(Opacity=35); /* Полупрозрачность для IE */
+    opacity: 0.35; /* Полупрозрачность для других браузеров */ 
+}
+
+
+
+
+
+
+
+
+
+
+/*Напрвления кафедры*/
+.naprav_kaf {
+
+    position: absolute;
+    top: 6470px;
+    left: -210px;
+}
+
+.comp{
+
+    position: absolute;
+    width: 1600px;
+    height: 800px;
+    mix-blend-mode: overlay;
+}
