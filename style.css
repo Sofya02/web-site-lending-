@@ -612,7 +612,53 @@ h4{
     opacity: 0.25; /* Полупрозрачность для других браузеров */ 
 }
 
+/*программа подготовки магистратуры 2*/
+.prog_prep_mag2{
 
+    position: absolute;
+    font-family: 'Glegoo';
+    font-weight: bold;
+    font-size: 20px;
+    text-transform:uppercase;/*текст из заглавных букв*/
+    color:#000;
+    top:120px;
+    left: -80px;
+    line-height: 20px;
+
+}
+
+.prog_prep_mag2_n{
+
+    font-weight: normal;
+    font-size: 16px;
+    width:550px;
+    line-height: 30px;
+
+}
+
+/*Чему вы научитесь магистратура 2*/
+.what_know_mag2{
+
+    position: absolute;
+    font-family: 'Glegoo';
+    font-weight: bold;
+    font-size: 20px;
+    text-transform:uppercase;/*текст из заглавных букв*/
+    color:#000;
+    top:120px;
+    left: 550px;
+    line-height: 30px;
+
+}
+
+.what_know_mag2_n{
+
+    font-weight: normal;
+    font-size: 14px;
+    width:600px;
+    line-height: 10px;
+
+}
 
 
 
