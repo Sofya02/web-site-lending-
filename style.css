@@ -736,7 +736,7 @@ h4{
 
     position: absolute;
     top:80px;
-    left:-90px;
+    left:-50px;
     color:#000;
     font-weight: bold;
 
@@ -753,11 +753,12 @@ b{font-size: 14px;}
 }
 
 
+
 /*Студенческая жизнь*/
 .students{
 
     position: absolute;
-    top: 5480px;
+    top: 5250px;
     left: 235px;
 
 }
@@ -770,6 +771,8 @@ b{font-size: 14px;}
 
 }
 
+/*Ряд картинок*/
+
 
 
 
@@ -779,17 +782,37 @@ b{font-size: 14px;}
 
     position: absolute;
     top: 6470px;
-    left: -210px;
+    left: -120px;
 }
 
 .comp{
 
     position: absolute;
-    width: 1600px;
+    width: 1500px;
     height: 800px;
     mix-blend-mode: overlay;
 }
 
+.kaf{
+
+    position: absolute;
+    font-family: 'Glegoo';
+    font-size: 14px;
+    text-transform:uppercase;/*текст из заглавных букв*/
+    width: 350px;
+    left:400px;
+    top:136px;
+    line-height: 30px;
+
+}
+
+
+
+
+
+
+
 
 
 /*https://html5book.ru/mnogourovnevoe-vypadayushee-menu/*/
+
