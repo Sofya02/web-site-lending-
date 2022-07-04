@@ -777,11 +777,19 @@ b{font-size: 14px;}
 
 
 
+
+
+
+
+
+
+
+
 /*Напрвления кафедры*/
 .naprav_kaf {
 
     position: absolute;
-    top: 6470px;
+    top: 6100px;
     left: -120px;
 }
 
@@ -805,6 +813,59 @@ b{font-size: 14px;}
     line-height: 30px;
 
 }
+
+.chek_kaf{
+
+    position: absolute;
+    font-family: 'Glegoo';
+    font-size: 14px;
+    font-weight: bold;
+    width: 425px;
+    left:630px;
+    top:286px;
+    line-height: 20px;
+    color:rgb(50, 35, 35);
+
+}
+
+
+/*Партнеры*/
+.partners{
+
+    position: absolute;
+    top: 7000px;
+    left: 235px;
+
+}
+
+.part_name{
+
+    font-family: 'Glegoo';
+    font-size: 28px;
+    text-transform:uppercase;/*текст из заглавных букв*/
+
+}
+
+
+/*Контакты*/
+.contacs{
+
+    position: absolute;
+    top: 7930px;
+    left: 235px;
+
+}
+
+.cont_name{
+
+    font-family: 'Glegoo';
+    font-size: 28px;
+    text-transform:uppercase;/*текст из заглавных букв*/
+
+}
+
+
+
 
 
 
