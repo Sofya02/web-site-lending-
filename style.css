@@ -1,4 +1,3 @@
-
 /*задний фон*/
 body {
     width: 100%;
@@ -871,7 +870,7 @@ b{font-size: 14px;}
     font-family: 'Glegoo';
     font-size: 28px;
     top:40px;
-    left:430px;
+    left:420px;
     color:#000;
     width:200px;
 }
@@ -894,7 +893,7 @@ b{font-size: 14px;}
     position: absolute;
     width: 40px;
     height: 40px;
-    left: 390px;
+    left: 370px;
     top: 120px;
 
 }
@@ -905,7 +904,7 @@ b{font-size: 14px;}
     position: absolute;
     width: 40px;
     height: 40px;
-    left: 390px;
+    left: 370px;
     top: 60px;
 
 }
@@ -915,7 +914,7 @@ b{font-size: 14px;}
     position: absolute;
     width: 40px;
     height: 40px;
-    left: 390px;
+    left: 370px;
     top: 180px;
 }
 
@@ -925,7 +924,7 @@ b{font-size: 14px;}
     font-family: 'Glegoo';
     font-size: 28px;
     top:40px;
-    left:940px;
+    left:920px;
     color:#000;
     width:200px;
 
@@ -936,7 +935,7 @@ b{font-size: 14px;}
     position: absolute;
     width: 50px;
     height: 45px;
-    left: 870px;
+    left: 850px;
     top: 60px;
 
 }
@@ -947,15 +946,19 @@ b{font-size: 14px;}
     position: absolute;
     width: 50px;
     height: 50px;
-    left: 870px;
+    left: 850px;
     top: 120px;
 
 }
 
+.facebook_t{
 
+    position: absolute;
+    font-family: 'Glegoo';
+    font-size: 28px;
+    top:130px;
+    left:920px;
+    color:#000;
+    width:200px;
 
-
-
-
-/*https://html5book.ru/mnogourovnevoe-vypadayushee-menu/*/
-
+}
