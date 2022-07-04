@@ -860,15 +860,63 @@ b{font-size: 14px;}
 
     font-family: 'Glegoo';
     font-size: 28px;
+    font-weight: bolder;
     text-transform:uppercase;/*текст из заглавных букв*/
 
 }
 
 .info{
 
+    position: absolute;
     font-family: 'Glegoo';
-    font-size: 24px;
-    left:200px;
+    font-size: 28px;
+    top:40px;
+    left:450px;
+    color:#000;
+    width:200px;
+}
+
+.mail{
+    position: absolute;
+    top:60px;
+}
+
+.locat{
+
+    position: absolute;
+    top:120px;
+    width:320px;
+}
+
+/*Местоположение (иконка)*/
+.mail2{
+
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 390px;
+    top: 120px;
+
+}
+
+/* Телефон (иконка)*/
+.phone2{
+
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 390px;
+    top: 60px;
+
+}
+
+.location2{
+
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 390px;
+    top: 180px;
 
 }
 
