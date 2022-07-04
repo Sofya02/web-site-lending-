@@ -326,7 +326,7 @@ h4{
     top: 1670px;
     left: 240px;
 }
-
+/*картинка правый верхний угол*/
 .cpu{
 
     top:10px;
@@ -335,10 +335,10 @@ h4{
     left:-10px;
     mix-blend-mode: color-dodge;
 }
-
+/*картинка левый нижний угол*/
 .analytics{
 
-    top:400px;
+    top:300px;
     width: 450px;
     height: 450px;
     left:800px;
@@ -366,12 +366,75 @@ h4{
     line-height: 30px;
 }
 
+/*Предметы для поступления*/
+.subjects{
+
+    position: absolute;
+    font-family: 'Glegoo';
+    font-weight: bold;
+    font-size: 19px;
+    text-transform:uppercase;/*текст из заглавных букв*/
+    color:#000;
+    top:140px;
+    left:-85px;
+    width:1240px;
+    line-height: 35px;
+}
+
+.sub{
+    font-weight: normal;
+    line-height: 15px;
+}
+
+.prof{
+
+    position: absolute;
+    font-family: 'Glegoo';
+    font-weight: bold;
+    font-size: 19px;
+    text-transform:uppercase;/*текст из заглавных букв*/
+    color:#fff;
+    top:325px;
+    left:-85px;
+    line-height: 50px;
+}
+
+.profession{
+
+    font-weight: normal;
+    line-height: 40px;
+    width:450px;
+}
+
+.key_disciplines{
+
+    position: absolute;
+    font-family: 'Glegoo';
+    font-weight: bold;
+    font-size: 19px;
+    text-transform:uppercase;/*текст из заглавных букв*/
+    color:#000;
+    top:130px;
+    left:500px;
+    line-height: 50px;
+}
+
+.disciplines{
+
+    font-weight: normal;
+    line-height: 40px;
+    width:600px;
+
+}
+
+
+
 
 /*Магистратура1*/
 .mag1 {
 
     position: absolute;
-    top: 2670px;
+    top: 2510px;
     left: 240px;
 }
 
@@ -395,15 +458,97 @@ h4{
     line-height: 30px;
 }
 
+
 /*картинка в которую вставлен текст()*/
 .program{
 
     top:110px;
-    width: 450px;
-    height: 450px;
-    left:-50px;
+    width: 525px;
+    height: 525px;
+    left:-80px;
     mix-blend-mode: color-dodge;
 }
+/*Текст в картинке "программа подготовки"*/
+.prog_prepare{
+
+    position: absolute;
+    font-family: 'Glegoo';
+    font-weight: bold;
+    font-size: 20px;
+    text-transform:uppercase;/*текст из заглавных букв*/
+    color:#000;
+    top:260px;
+    left: -20px;
+    line-height: 20px;
+}
+
+.prepare{
+
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    width:400px;
+}
+
+.prof_mag1{
+
+    position: absolute;
+    font-family: 'Glegoo';
+    font-weight: bold;
+    font-size: 20px;
+    text-transform:uppercase;/*текст из заглавных букв*/
+    color:#f8faff;
+    top:650px;
+    left: -20px;
+    line-height: 30px;
+
+}
+
+.prof_mag1_n{
+
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    width:500px;
+}
+
+.disc_mag1{
+
+    position: absolute;
+    font-family: 'Glegoo';
+    font-weight: bold;
+    font-size: 20px;
+    text-transform:uppercase;/*текст из заглавных букв*/
+    color:#f8faff;
+    top:150px;
+    left:550px;
+
+}
+
+.disc{
+
+    font-weight: normal;
+    font-size: 16px;
+    width:650px;
+
+}
+
+.what_know{
+
+    line-height: 70px;
+    color:#000;
+}
+
+.knowl_mag1{
+
+    font-weight: normal;
+    font-size: 16px;
+    width:600px;
+    color:#000;
+    line-height: 30px;
+
+}
+
 /*фоновое изображение*/
 .servers{
 
@@ -417,11 +562,12 @@ h4{
 }
 
 
+
 /*Магистратура1*/
 .mag2 {
 
     position: absolute;
-    top: 3580px;
+    top: 3475px;
     left: 235px;
 }
 
@@ -465,6 +611,10 @@ h4{
     filter: alpha(Opacity=25); /* Полупрозрачность для IE */
     opacity: 0.25; /* Полупрозрачность для других браузеров */ 
 }
+
+
+
+
 
 /*Преподаватели*/
 .teachers{
