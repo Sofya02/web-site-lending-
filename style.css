@@ -852,7 +852,7 @@ b{font-size: 14px;}
 
     position: absolute;
     top: 7930px;
-    left: 235px;
+    left: 150px;
 
 }
 
@@ -871,7 +871,7 @@ b{font-size: 14px;}
     font-family: 'Glegoo';
     font-size: 28px;
     top:40px;
-    left:450px;
+    left:430px;
     color:#000;
     width:200px;
 }
@@ -917,8 +917,41 @@ b{font-size: 14px;}
     height: 40px;
     left: 390px;
     top: 180px;
+}
+
+.social{
+
+    position: absolute;
+    font-family: 'Glegoo';
+    font-size: 28px;
+    top:40px;
+    left:940px;
+    color:#000;
+    width:200px;
 
 }
+
+.vk{
+
+    position: absolute;
+    width: 50px;
+    height: 45px;
+    left: 870px;
+    top: 60px;
+
+}
+
+
+.facebook{
+
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 870px;
+    top: 120px;
+
+}
+
 
 
 
