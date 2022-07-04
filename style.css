@@ -637,7 +637,7 @@ h4{
 }
 
 /*Чему вы научитесь магистратура 2*/
-.what_know_mag2{
+.disc_mag2{
 
     position: absolute;
     font-family: 'Glegoo';
@@ -651,7 +651,7 @@ h4{
 
 }
 
-.what_know_mag2_n{
+.disc_mag2_n{
 
     font-weight: normal;
     font-size: 14px;
@@ -659,6 +659,24 @@ h4{
     line-height: 10px;
 
 }
+
+.KNOW_mag2{
+    position: absolute;
+    top:450px;
+    left:-80px;
+    color:#fff;
+    font-weight: bold;
+}
+
+.k_mag2{
+
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+
+}
+
+
 
 
 
