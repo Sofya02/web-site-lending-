@@ -703,17 +703,11 @@ h4{
 }
 
 
-
-
-
-
-
-
 /*Преподаватели*/
 .teachers{
 
     position: absolute;
-    top: 4580px;
+    top: 4400px;
     left: 235px;
 }
 
@@ -724,12 +718,12 @@ h4{
     text-transform:uppercase;/*текст из заглавных букв*/
 
 }
-
+/*Тень на заднем фоне*/
 .shadow{
 
-    top:100px;
+    top:30px;
     width: 1280px;
-    height: 650px;
+    height: 700px;
     left:-130px;
     mix-blend-mode: soft-light;
     filter: alpha(Opacity=25); /* Полупрозрачность для IE */
@@ -737,6 +731,29 @@ h4{
 
 }
 
+/*Список учителей*/
+.teachers_list{
+
+    position: absolute;
+    top:80px;
+    left:-90px;
+    color:#000;
+    font-weight: bold;
+
+}
+
+b{font-size: 14px;}
+
+.prof_teachers{
+
+    font-weight: normal;
+    font-size: 14px;
+    width:300px;
+    line-height: 30px;
+}
+
+
+/*Студенческая жизнь*/
 .students{
 
     position: absolute;
