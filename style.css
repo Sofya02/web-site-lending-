@@ -319,7 +319,7 @@ h4{
 
     }
     
-   /**/
+/*Бакалавриат*/
 .bakalavr {
 
     position: absolute;
@@ -355,13 +355,15 @@ h4{
 
 .an{
 
+    position: absolute;
     font-family: 'Glegoo';
-    font-size: 20px;
+    font-size: 19px;
     text-transform:uppercase;/*текст из заглавных букв*/
     color:#fff;
-    left: -20px;
-    top:100px;
-
+    top:40px;
+    left:-80px;
+    width:1240px;
+    line-height: 30px;
 }
 
 
@@ -370,61 +372,143 @@ h4{
 
     position: absolute;
     top: 2670px;
-    left: 190px;
+    left: 240px;
 }
 
+.mag1_name{
+
+    font-family: 'Glegoo';
+    font-size: 28px;
+    text-transform:uppercase;/*текст из заглавных букв*/
+}
+
+.m1{
+
+    position: absolute;
+    font-family: 'Glegoo';
+    font-size: 19px;
+    text-transform:uppercase;/*текст из заглавных букв*/
+    color:#000;
+    top:40px;
+    left:-85px;
+    width:1240px;
+    line-height: 30px;
+}
+
+/*картинка в которую вставлен текст()*/
 .program{
 
-    top:10px;
+    top:110px;
     width: 450px;
     height: 450px;
-    left:-10px;
+    left:-50px;
     mix-blend-mode: color-dodge;
 }
-
+/*фоновое изображение*/
 .servers{
 
-    top:250px;
+    top:390px;
     width: 450px;
     height: 450px;
     left:800px;
     mix-blend-mode: soft-light;
-    filter: alpha(Opacity=35); /* Полупрозрачность для IE */
-    opacity: 0.35; /* Полупрозрачность для других браузеров */ 
+    filter: alpha(Opacity=25); /* Полупрозрачность для IE */
+    opacity: 0.25; /* Полупрозрачность для других браузеров */ 
 }
+
 
 /*Магистратура1*/
 .mag2 {
 
     position: absolute;
-    top: 3470px;
-    left: 70px;
+    top: 3580px;
+    left: 235px;
 }
 
+.mag2_name{
+
+    font-family: 'Glegoo';
+    font-size: 28px;
+    text-transform:uppercase;/*текст из заглавных букв*/
+}
+
+.m2{
+
+    position: absolute;
+    font-family: 'Glegoo';
+    font-size: 19px;
+    text-transform:uppercase;/*текст из заглавных букв*/
+    color:#000;
+    top:40px;
+    left:-80px;
+    width:1240px;
+    line-height: 30px;
+}
+
+/*фоновая картинка верхний правый угол*/
 .chip{
 
     top:10px;
     width: 450px;
     height: 450px;
-    left:-10px;
+    left:-190px;
     mix-blend-mode: screen;
 }
-
+/*фоновая картинка нижний левый угол*/
 .big-data{
 
     top:450px;
     width: 450px;
     height: 450px;
-    left:950px;
+    left:800px;
     mix-blend-mode: soft-light;
-    filter: alpha(Opacity=35); /* Полупрозрачность для IE */
-    opacity: 0.35; /* Полупрозрачность для других браузеров */ 
+    filter: alpha(Opacity=25); /* Полупрозрачность для IE */
+    opacity: 0.25; /* Полупрозрачность для других браузеров */ 
 }
 
+/*Преподаватели*/
+.teachers{
 
+    position: absolute;
+    top: 4580px;
+    left: 235px;
+}
 
+.teach{
 
+    font-family: 'Glegoo';
+    font-size: 28px;
+    text-transform:uppercase;/*текст из заглавных букв*/
 
+}
+
+.shadow{
+
+    top:100px;
+    width: 1280px;
+    height: 650px;
+    left:-130px;
+    mix-blend-mode: soft-light;
+    filter: alpha(Opacity=25); /* Полупрозрачность для IE */
+    opacity: 0.25; /* Полупрозрачность для других браузеров */ 
+
+}
+
+.students{
+
+    position: absolute;
+    top: 5480px;
+    left: 235px;
+
+}
+
+.stud_life_name{
+
+    font-family: 'Glegoo';
+    font-size: 28px;
+    text-transform:uppercase;/*текст из заглавных букв*/
+
+}
 
 
 
@@ -445,3 +529,7 @@ h4{
     height: 800px;
     mix-blend-mode: overlay;
 }
+
+
+
+/*https://html5book.ru/mnogourovnevoe-vypadayushee-menu/*/
