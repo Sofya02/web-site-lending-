@@ -1,7 +1,7 @@
 /*задний фон*/
 body {
+    margin: 0;
     width: 100%;
-    min-width:960px;
     background-color: #A5BEFF; 
    
 }
@@ -10,10 +10,10 @@ body {
 img {
 
     position: absolute;
-    width: 550px;
-    height: 200px;
+    width: 470px;
+    height: 190px;
     left: 120px;
-    top: 10px;
+    top:10px;
 }
 
 /*Заголовок сайта*/
@@ -58,6 +58,8 @@ h1 {
     left: 500px;
     top: -2px;
     mix-blend-mode: color-burn;
+    filter: alpha(Opacity=40); /* Полупрозрачность для IE */
+    opacity: 0.40; /* Полупрозрачность для других браузеров */ 
 }
 
 
@@ -67,8 +69,8 @@ h1 {
     position: absolute;
     width: 40px;
     height: 40px;
-    left: 810px;
-    top: 35px;
+    left: 910px;
+    top: 20px;
 
 }
 
@@ -76,15 +78,15 @@ h1 {
 .main_info{
 
     position: absolute;
-    width: 661px;
+    width: 400px;
     height: 54.72px;
-    left: 850px;
-    top: 1px;
+    left: 950px;
+    top: 0px;
 
     font-family: 'Glegoo';
     font-style:bold;
     font-weight: 400;
-    font-size: 28px;
+    font-size: 20px;
     line-height: 57px;
     display: flex;
     align-items: center;
@@ -98,8 +100,8 @@ h1 {
     position: absolute;
     width: 30px;
     height: 30px;
-    left: 1130px;
-    top: 90px;
+    left: 1145px;
+    top: 75px;
 
 }
 
@@ -109,13 +111,13 @@ h1 {
     position: absolute;
     width: 200px;
     height: 54.72px;
-    left: 1170px;
-    top: 50px;
+    left: 1180px;
+    top: 40px;
 
     font-family: 'Glegoo';
     font-style:bold;
     font-weight: 400;
-    font-size: 28px;
+    font-size: 20px;
     line-height: 57px;
     display: flex;
     align-items: center;
@@ -130,7 +132,7 @@ h1 {
     width: 40px;
     height: 40px;
     left: 1150px;
-    top: 137px;
+    top: 107px;
 
 }
 
@@ -141,12 +143,12 @@ h1 {
     width: 100px;
     height: 54.72px;
     left: 1200px;
-    top: 90px;
+    top: 75px;
 
     font-family: 'Glegoo';
     font-style:bold;
     font-weight: 400;
-    font-size: 28px;
+    font-size: 20px;
     line-height: 57px;
     display: flex;
     align-items: center;
@@ -154,108 +156,11 @@ h1 {
     color: #18082D;
 }
 
-.menu{
-
-    position: absolute;
-    width: 500px;
-    height: 10px;
-    left: 138px;
-    top: 280px;
-    align-items: center;
-	display: table;
-    
-
-}
-
-.right{
-
-    position: absolute;
-    width: 550px;
-    height: 10px;
-    left: 715px;
-    top: -1px;
-	display: table;
-
-}
-
-.menu ul{
-
-    list-style-type: none; /*убираем маркеры списка*/
-    display: table-row; 
-
-}
-
-.menu li {
-	display: table-cell;
-	position: relative;
-    margin-right:25px;
-
-}
-
-.menu li a{
-
-    text-decoration: none; /*убираем подчеркивание текста ссылок*/
-    font-family: 'Glegoo';
-    font-size: 28px;
-    font-weight: bolder;
-    color: #2F1245;
-    display: block;
-	padding: 5px 5px;
-	text-align: left;
-    width: max-content;
-
-}
-
-.menu-caret:after {
-    position: relative;
-	display: inline-block;
-	width: 0;
-	height: 0;
-	margin-left: .255em;
-	vertical-align: .255em;
-	content: "";
-	border-top: 10px solid;
-	border-right: 10px solid transparent;
-	border-bottom: 0;
-	border-left: 10px solid transparent;
-}
-
-/*установка цвета при наведение на один из пунктов меню*/
-.menu ul li:hover, .menu a:hover {
-	background: rgb(190, 230, 248);
-}
-
-.menu li:hover ul  {
-	display: block;
-	position: absolute;
-	top: 100%;
-	left: 0px;
-	background: rgb(190, 230, 248);
-	margin: 0;
-	padding: 1px 1px;
-    width: max-content;
-	z-index: 1;
-}
-
-.menu ul ul  {
-	display: none;
-}
-
-.menu ul ul li  {
-	display: block;
-	background: rgb(190, 230, 248);
-}
-
-.menu ul ul li a  {
-	display: block;
-	padding: 0;/*расстояние между пунктами выпадающего меню*/
-	background: rgb(190, 230, 248);
-	text-align: left;
-}
 
 .Software_engineering
 {
     position: absolute;
+    top:0px;
 
 }
 /*Картинка*/
@@ -1258,4 +1163,71 @@ h2 {
     font-size: 35px;
     font-family: 'Glegloo';
     margin-bottom: 20px;
+}
+
+
+nav ul {
+  margin: 250px;;
+  padding: 0;
+  list-style: none;
+}
+nav ul:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+nav a {
+  text-decoration: none;
+  display: block;
+  transition: .3s linear;
+}
+.topmenu > li {
+  float: left;
+  position: relative;
+}
+.topmenu > li:first-child {border-left: 0;}
+.topmenu > li > a {  
+  padding: 5px 5px;/*высота и ширина рамки*/
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #FEFDFD;
+  letter-spacing: 2px;/*расстояние между буквами*/
+}
+.topmenu > li > a.active, 
+.submenu a:hover {color: #FEFDFD;}
+.topmenu .fa, 
+.submenu .fa {
+  margin-left: 5px;
+}
+.submenu {
+  position: absolute;
+  z-index: 5;
+  min-width: 200px;
+  background: white;
+  border-top: 1px solid #CBCBCC;
+  border-left: 1px solid #CBCBCC;
+  border-right: 1px solid #CBCBCC;
+  visibility: hidden;
+  opacity: 0; 
+  transform-origin: 0% 0%;
+  transform: rotateX(-90deg);
+  transition: .3s linear;  
+}
+.submenu li {position: relative;}
+.submenu li a {
+  color: #282828;
+  padding: 10px 20px;
+  font-size: 20px;
+  border-bottom: 1px solid #CBCBCC;
+}
+.submenu .submenu {
+  position: absolute;
+  left: 100%;
+  top: -1px;
+  transition: .3s linear;
+}
+nav li:hover > .submenu {
+  transform: rotateX(0deg);
+  visibility: visible;
+  opacity: 1;
 }
