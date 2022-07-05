@@ -771,6 +771,27 @@ b{font-size: 14px;}
 }
 
 /*Ряд картинок*/
+.photo{
+
+    top:100px;
+    left:200px;
+
+}
+.picture{
+
+    top:100px;
+    left:-100px;
+    height: 200px;
+    width:320px;
+}
+
+.picture1{
+
+    top:100px;
+    left:100px;
+    height: 200px;
+    width:320px;
+}
 
 
 
@@ -833,7 +854,7 @@ b{font-size: 14px;}
 
     position: absolute;
     top: 7000px;
-    left: 235px;
+    left: 150px;
 
 }
 
@@ -848,6 +869,7 @@ b{font-size: 14px;}
 .partner{
 
     position:absolute;
+    left:100px;
 
 }
 
@@ -1055,9 +1077,6 @@ b{font-size: 14px;}
     top:440px;
 
 }
-
-
-
 
 
 
