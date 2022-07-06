@@ -1227,8 +1227,21 @@ h2 {
     margin-bottom: 20px;
 }
 
+.end{
 
+    position: absolute;
+    top:8450px;
+    width:100%;
+    left:0px;
+}
 
+.end_menu{
+
+    top:-900px;
+    left:120px;
+    font-size: 16px;
+
+}
 
 /*https://webformyself.com/optimizaciya-veb-sajtov-pod-bolshie-ekrany/*/
 
