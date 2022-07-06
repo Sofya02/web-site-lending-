@@ -12,8 +12,6 @@ body {
 
 }
 
-@media screen and (min-width: 1440px) and (max-width: 1904px){  .body{width:1904px;}   }
-
 .top{
 
     position: absolute;
@@ -1177,5 +1175,7 @@ h2 {
 
 
 
+
+/*https://webformyself.com/optimizaciya-veb-sajtov-pod-bolshie-ekrany/*/
 
 
