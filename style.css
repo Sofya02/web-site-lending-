@@ -137,9 +137,29 @@ nav {
     letter-spacing: 2px;
     color: #fff;
   }
-  .active:after, .submenu-link:after {
+  .active:after {
     margin-left: 10px;
+    
   }
+
+  .submenu-link:after {
+
+    position: relative;
+	display: inline-block;
+	width: 0;
+	height: 0;
+	margin-left: .255em;
+	vertical-align: .255em;
+	content: "";
+	border-top: 10px solid;
+	border-right: 10px solid transparent;
+	border-bottom: 0;
+	border-left: 10px solid transparent;
+
+  }
+
+
+
   .topmenu .active, .topmenu > li > a:hover, .submenu li a:hover {color: #fff;}
   .submenu {
     position: absolute;
