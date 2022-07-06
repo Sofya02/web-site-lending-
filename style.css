@@ -158,8 +158,6 @@ nav {
 
   }
 
-
-
   .topmenu .active, .topmenu > li > a:hover, .submenu li a:hover {color: #fff;}
   .submenu {
     position: absolute;
@@ -198,7 +196,7 @@ nav {
 
   .main_block{
     position: absolute;
-    top:446px;
+    top:426px;
     left:800px;
   }
 
@@ -212,7 +210,7 @@ nav {
 
   .soft_kar{
 
-    top:-125px;
+    top:-105px;
     left:-640px;
     height: 400px;
     width:600px;
