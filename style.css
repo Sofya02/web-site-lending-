@@ -86,7 +86,7 @@ h1 {
 .line{
 
     position: absolute;
-    width: 1516px;
+    width: 100%;/*max-width: 1516px;*/
     height: 0px;
     left: 0px;
     top: 230px;
@@ -98,7 +98,7 @@ h1 {
 .line2{
 
     position: absolute;
-    width: 1516px;
+    width: 100%;/*max-width: 1516px;*/
     height: 0px;
     left: 0px;
     top: 275px;
@@ -124,7 +124,7 @@ h1 {
     position: absolute;
     top:-10px;
     left:0;
-    width: 1516px;;
+    width: 100%;/*max-width:1518px;*/
    
 }
 
@@ -134,8 +134,7 @@ h1 {
 
     position: absolute;
     top:237px;
-    /*width:1516px;*/
-    width:100%;
+    width:100%;/* max-width:1518px;*/
     left:0;
     
 }
@@ -1277,7 +1276,7 @@ h2 {
 .fon{
 
     position: absolute;
-    width: 1516px;
+    width: 1518px;
     height: 200px;
     background-color: #2f516b;
     left:0;
