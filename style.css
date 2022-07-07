@@ -1,16 +1,14 @@
-/*задний фон*/
-body {
-    margin: 0;
+
+html, body, #container {
+    height: 100%; /* Высота страницы */
+    overflow: auto; /*Полосы прокрутки добавляются только при необходимости. */
     background-color: #A5BEFF; 
-    width:auto;
-   
-}
+   }
 
-.main_main{
+#container {
+    overflow: auto; /* Добавляем полосы прокрутки */
+   }
 
-    margin:0;
-
-}
 
 .top{
 
@@ -53,16 +51,13 @@ h1 {
     left:0px;
     height: 150px;/*150*/
     width: 150px;/*280*/
-    
-  
   }
 
 /*линия*/
 .line{
 
     position: absolute;
-    width: 100%;
-    /*max-width: 1516px;*/
+    width: 1516px;
     height: 0px;
     left: 0px;
     top: 230px;
@@ -74,8 +69,7 @@ h1 {
 .line2{
 
     position: absolute;
-    width: 100%;
-    /*max-width: 1516px;*/
+    width: 1516px;
     height: 0px;
     left: 0px;
     top: 275px;
@@ -96,6 +90,15 @@ h1 {
     opacity: 0.40; /* Полупрозрачность для других браузеров */ 
 }
 
+.hr1{
+
+    position: absolute;
+    top:-10px;
+    left:0;
+    width: 1516px;;
+   
+}
+
 
 /*Меню*/
 .menu{
@@ -103,7 +106,9 @@ h1 {
     position: absolute;
     top:237px;
     /*width:1516px;*/
-    width: 100%;
+    width:100%;
+    left:0;
+    
 }
 nav {
     background: rgb(61, 108, 145);
@@ -193,6 +198,7 @@ nav {
     opacity: 1;
     transform: translateY(0px);
   }
+
 
   .main_block{
     position: absolute;
@@ -1171,8 +1177,8 @@ b{font-size: 14px;}
 .vk{
 
     position: absolute;
-    width: 50px;
-    height: 45px;
+    width: 40px;
+    height: 40px;
     left: 830px;
     top: 60px;
 
@@ -1218,7 +1224,7 @@ b{font-size: 14px;}
 
 .container {
     max-width: 1000px;
-    margin: 0 auto;
+    
 }
 
 h2 {
@@ -1227,21 +1233,87 @@ h2 {
     margin-bottom: 20px;
 }
 
+
+/*Конец страницы*/
 .end{
 
     position: absolute;
     top:8450px;
-    width:100%;
     left:0px;
-    background-color: #3d6c91
+    width:1000px;
+    height: 200px;
+
+
+}
+.fon{
+
+    position: absolute;
+    width: 1516px;
+    height: 200px;
+    background-color: #2f516b;
+    left:0;
 }
 
 .end_menu{
 
-    top:-900px;
-    font-size: 16px;
+    top:-920px;
+    
+}
+
+.settings_end_menu{
+
+    position: relative;
+    color:#fff;
+    font-size: 12px;
+    left:150px;
+    top:20px;
+    
+}
+#the_end{
+
+    position: absolute;
+    left:150px;
+    top:130px;
+    width:1080px;
+    align-items: center;
+    color:#fff;
+    font-size: 14px;
 
 }
+
+.logo_vol{
+
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 1235px;
+    top: 125px;
+
+}
+
+
+.vk2{
+
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 1290px;
+    top: 125px;
+
+}
+
+
+.facebook2{
+
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 1340px;
+    top: 120px;
+
+}
+
+
 
 /*https://webformyself.com/optimizaciya-veb-sajtov-pod-bolshie-ekrany/*/
 
