@@ -2,8 +2,8 @@
 body{
     margin: 0;
     background-color: #A5BEFF; 
-   /* margin-left: auto;
-    margin-right: auto;*/
+    margin-left: auto;
+    margin-right: auto;
    }
 
 *,
@@ -1352,6 +1352,11 @@ h2 {
 
     }
 
+    .container{
+
+       overflow-x: hidden;
+      
+    }
 
     .top{
 
