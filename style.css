@@ -13,14 +13,6 @@ body{
 }
 
 
-/* Container */
-.container {
-    margin: 0 auto;
-    max-width: 1024px;
-    width: 80%;
-
-}
-
 .main_main{
 
     display: flex;
@@ -1339,28 +1331,35 @@ h2 {
 
 }
 
-
-    
 /* Большие экраны ----------- */
 @media only screen  and (min-width: 1824px) {
-/* стили */
-
-}
-
-@media (max-width: 990px) {
+    /* стили */
+    
+    }
+    
+@media (min-width: 990px) and (max-width: 1224px) {
 
 
     body{
+        
+        margin:0;
         display: block;
         width: 100%;
 
+    }
+
+    .container{
+
+       float:left;
+       left:20px;
+      
     }
 
     .top{
 
         position: absolute;
         top:20px;
-        left: 20px;
+        left: 40px;
         
     }
     
@@ -1410,31 +1409,31 @@ h2 {
     nav {
         width: 100%;
     
-      }
-      
-      .topmenu > li {
+        }
+        
+        .topmenu > li {
         left:40px;
-      }
-      .topmenu > li:last-child {border-right: 1px solid rgb(61, 108, 145);}
-      .topmenu > li > a {
+        }
+        .topmenu > li:last-child {border-right: 1px solid rgb(61, 108, 145);}
+        .topmenu > li > a {
         font-size: 14px;
-      }
+        }
 
     /**/
-      .main_block{
+        .main_block{
         position: absolute;
         top:356px;
         left:530px;
-      }
+        }
     
-      .poas{
-   
+        .poas{
+    
         font-size: 18px;
         width: 380px;
     
-      }
+        }
     
-      .soft_kar{
+        .soft_kar{
 
         top:-35px;
         left:-470px;/*-740*/
@@ -1443,7 +1442,7 @@ h2 {
     }
     
     /*Направления */
-   
+    
     /*Картинка*/
     .Prog_in {
     
@@ -1461,7 +1460,7 @@ h2 {
         top: 685px;
     
     }
-       
+        
     .DierctSoftEng1{
 
         position: absolute;
@@ -1677,7 +1676,7 @@ h2 {
     /*фоновая картинка нижний левый угол*/
     .big-data{
     
-      display: none;
+        display: none;
     }
     
     /*программа подготовки магистратуры 2*/
@@ -1693,7 +1692,7 @@ h2 {
     
         font-size: 12px;
         line-height: 20px;
-    
+        width:400px;
     }
     
     /*Ключевые дисциплины магистратура 2*/
@@ -1760,7 +1759,7 @@ h2 {
     /*Тень на заднем фоне*/
     .shadow{
     
-       display: none;
+        display: none;
     
     }
     
@@ -1839,7 +1838,7 @@ h2 {
     
     /*Партнеры*/
     .partners{
- 
+    
         top: 5225px;
         left: 40px;
     
@@ -1876,7 +1875,7 @@ h2 {
     
         left:210px;
         top:50px;
- 
+    
     }
     /*Партнер id_east*/
     /*Картинка*/
@@ -1884,7 +1883,7 @@ h2 {
     
         left:510px;
         top:50px;
-      
+        
     }
     
     /*Партнер институт квантовой механики*/
@@ -1901,7 +1900,7 @@ h2 {
     
         left:210px;
         top:180px;
-     
+        
     }
     
     /*Партнер кельнская школа прикладных наук*/
@@ -1910,7 +1909,7 @@ h2 {
     
         left:-110px;
         top:300px;
-     
+        
     }
     /*Партнер техно юг*/
     /*Картинка*/
@@ -1918,7 +1917,7 @@ h2 {
     
         left:510px;
         top:180px;
-   
+    
     }
     /*Партнер Смарткодер Разработка мобильных приложений*/
     /*Картинка*/
@@ -1926,7 +1925,7 @@ h2 {
     
         left:510px;
         top:300px;
-  
+    
     }
 
     /*Партнер NetVox Lab Разработка, интеграция и аутсорсинг IT-услуг*/
@@ -1935,7 +1934,7 @@ h2 {
     
         left:210px;
         top:310px;
-      
+        
     }
 
     
@@ -2140,7 +2139,7 @@ h2 {
     
     
     
-   
+    
 
 }
 
