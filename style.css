@@ -13,9 +13,8 @@ body{
 
 /* Container */
 .container {
-    width: 100%;
-    max-width: 1200px;
     margin: 0 auto;
+    max-width: 1024px;
 }
 
 .header__inner {
@@ -143,6 +142,8 @@ nav {
     box-shadow: 0 2px 0 0 rgb(61, 108, 145);
     border-top: 1px solid rgb(61, 108, 145);
     text-align: left;
+    width: 100%;
+
   }
   nav a {
     text-decoration: none;
@@ -1342,30 +1343,3 @@ h2 {
 }
 
 
-/* Large Devices, Wide Screens */
-@media only screen and (max-width : 1200px) {
-
-
-  
-}
-
-/* Medium Devices, Desktops */
-@media only screen and (max-width : 992px) {
-
-
-  
-}
-
-/* Small Devices, Tablets */
-@media only screen and (max-width : 768px) {
-
-
-  
-}
-
-/* Extra Small Devices, Phones */
-@media only screen and (max-width : 480px) {
-
-
-
-}
