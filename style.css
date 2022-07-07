@@ -2,8 +2,8 @@
 body{
     margin: 0;
     background-color: #A5BEFF; 
-    margin-left: auto;
-    margin-right: auto;
+   /* margin-left: auto;
+    margin-right: auto;*/
    }
 
 *,
@@ -12,6 +12,10 @@ body{
     box-sizing: border-box;
 }
 
+.container {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
 .main_main{
 
@@ -1231,7 +1235,7 @@ b{font-size: 14px;}
 
     position: absolute;
     top:300px;
-    left:-100px;
+    left:-10px;
 }
 
 .map {
@@ -1241,7 +1245,7 @@ b{font-size: 14px;}
 }
 
 .container {
-    max-width: 1000px;
+    
     
 }
 
@@ -1348,13 +1352,6 @@ h2 {
 
     }
 
-    .container{
-
-       float:left;
-       left:20px;
-       content-visibility: center;
-      
-    }
 
     .top{
 
