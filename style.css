@@ -1352,6 +1352,7 @@ h2 {
 
        float:left;
        left:20px;
+       content-visibility: center;
       
     }
 
