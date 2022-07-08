@@ -1,0 +1,1478 @@
+
+/*Направления */
+.Software_engineering
+{
+    position: absolute;
+    top:0px;
+
+}
+/*Картинка*/
+.Prog_in {
+
+    width: 330px;
+    height: 300px;
+    left: 170px;
+    top: 900px;
+}
+/*Напрвления*/
+.Directions{
+
+    width: 800px;
+    height: 300px;
+    left: 578px;
+    top: 885px;
+
+}
+   
+    .DierctSoftEng1{
+
+        position: absolute;
+        left: 180px;
+        top: 1250px;
+
+    }
+
+    
+    .DierctSoftEng2{
+
+        position: absolute;
+        left: 180px;
+        top: 1400px;
+
+    }
+      
+    table {
+
+        font-family: 'Glegoo';
+        font-style:normal;
+        font-size: 20px;
+        width: 1240px;
+        text-transform:uppercase;/*текст из заглавных букв*/
+        border-collapse: collapse;
+        text-align: left;
+
+    }
+
+    th {
+
+        font-weight: normal;
+    }
+    td {
+
+        vertical-align: top; /* Выравнивание по верхнему краю ячейки */
+        transition: .3s linear;
+        width:300px;
+        line-height: 30px;
+
+    }
+    
+/*Бакалавриат*/
+.bakalavr {
+
+    position: absolute;
+    top: 1670px;
+    left: 240px;
+}
+/*картинка правый верхний угол*/
+.cpu{
+
+    top:10px;
+    width: 450px;
+    height: 450px;
+    left:-10px;
+    mix-blend-mode: color-dodge;
+}
+/*картинка левый нижний угол*/
+.analytics{
+
+    top:300px;
+    width: 450px;
+    height: 450px;
+    left:800px;
+    mix-blend-mode: color-dodge;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.bak{
+
+    font-family: 'Glegoo';
+    font-size: 28px;
+    text-transform:uppercase;/*текст из заглавных букв*/
+}
+
+.an{
+
+    position: absolute;
+    font-family: 'Glegoo';
+    font-size: 19px;
+    text-transform:uppercase;/*текст из заглавных букв*/
+    color:#fff;
+    top:40px;
+    left:-80px;
+    width:1240px;
+    line-height: 30px;
+}
+
+/*Предметы для поступления*/
+.subjects{
+
+    position: absolute;
+    font-family: 'Glegoo';
+    font-weight: bold;
+    font-size: 19px;
+    text-transform:uppercase;/*текст из заглавных букв*/
+    color:#000;
+    top:140px;
+    left:-85px;
+    width:1240px;
+    line-height: 35px;
+}
+
+.sub{
+    font-weight: normal;
+    line-height: 15px;
+}
+
+.prof{
+
+    position: absolute;
+    font-family: 'Glegoo';
+    font-weight: bold;
+    font-size: 19px;
+    text-transform:uppercase;/*текст из заглавных букв*/
+    color:#fff;
+    top:325px;
+    left:-85px;
+    line-height: 50px;
+}
+
+.profession{
+
+    font-weight: normal;
+    line-height: 40px;
+    width:450px;
+}
+
+.key_disciplines{
+
+    position: absolute;
+    font-family: 'Glegoo';
+    font-weight: bold;
+    font-size: 19px;
+    text-transform:uppercase;/*текст из заглавных букв*/
+    color:#000;
+    top:130px;
+    left:500px;
+    line-height: 50px;
+}
+
+.disciplines{
+
+    font-weight: normal;
+    line-height: 40px;
+    width:600px;
+
+}
+
+
+
+
+/*Магистратура1*/
+.mag1 {
+
+    position: absolute;
+    top: 2510px;
+    left: 240px;
+}
+
+.mag1_name{
+
+    font-family: 'Glegoo';
+    font-size: 28px;
+    text-transform:uppercase;/*текст из заглавных букв*/
+}
+
+.m1{
+
+    position: absolute;
+    font-family: 'Glegoo';
+    font-size: 19px;
+    text-transform:uppercase;/*текст из заглавных букв*/
+    color:#000;
+    top:40px;
+    left:-85px;
+    width:1240px;
+    line-height: 30px;
+}
+
+
+/*картинка в которую вставлен текст()*/
+.program{
+
+    top:110px;
+    width: 525px;
+    height: 525px;
+    left:-80px;
+    mix-blend-mode: color-dodge;
+}
+/*Текст в картинке "программа подготовки"*/
+.prog_prepare{
+
+    position: absolute;
+    font-family: 'Glegoo';
+    font-weight: bold;
+    font-size: 20px;
+    text-transform:uppercase;/*текст из заглавных букв*/
+    color:#000;
+    top:260px;
+    left: -20px;
+    line-height: 20px;
+}
+
+.prepare{
+
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    width:400px;
+}
+
+.prof_mag1{
+
+    position: absolute;
+    font-family: 'Glegoo';
+    font-weight: bold;
+    font-size: 20px;
+    text-transform:uppercase;/*текст из заглавных букв*/
+    color:#f8faff;
+    top:650px;
+    left: -20px;
+    line-height: 30px;
+
+}
+
+.prof_mag1_n{
+
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    width:500px;
+}
+
+.disc_mag1{
+
+    position: absolute;
+    font-family: 'Glegoo';
+    font-weight: bold;
+    font-size: 20px;
+    text-transform:uppercase;/*текст из заглавных букв*/
+    color:#f8faff;
+    top:150px;
+    left:550px;
+
+}
+
+.disc{
+
+    font-weight: normal;
+    font-size: 16px;
+    width:650px;
+
+}
+
+.what_know{
+
+    line-height: 70px;
+    color:#000;
+}
+
+.knowl_mag1{
+
+    font-weight: normal;
+    font-size: 16px;
+    width:600px;
+    color:#000;
+    line-height: 30px;
+
+}
+
+/*фоновое изображение*/
+.servers{
+
+    top:390px;
+    width: 450px;
+    height: 450px;
+    left:800px;
+    mix-blend-mode: soft-light;
+    filter: alpha(Opacity=25); /* Полупрозрачность для IE */
+    opacity: 0.25; /* Полупрозрачность для других браузеров */ 
+}
+
+
+
+/*Магистратура1*/
+.mag2 {
+
+    position: absolute;
+    top: 3475px;
+    left: 235px;
+}
+
+.mag2_name{
+
+    font-family: 'Glegoo';
+    font-size: 28px;
+    text-transform:uppercase;/*текст из заглавных букв*/
+}
+
+.m2{
+
+    position: absolute;
+    font-family: 'Glegoo';
+    font-size: 19px;
+    text-transform:uppercase;/*текст из заглавных букв*/
+    color:#000;
+    top:40px;
+    left:-80px;
+    width:1240px;
+    line-height: 30px;
+}
+
+/*фоновая картинка верхний правый угол*/
+.chip{
+
+    top:10px;
+    width: 450px;
+    height: 450px;
+    left:-190px;
+    mix-blend-mode: screen;
+}
+/*фоновая картинка нижний левый угол*/
+.big-data{
+
+    top:450px;
+    width: 450px;
+    height: 450px;
+    left:800px;
+    mix-blend-mode: soft-light;
+    filter: alpha(Opacity=25); /* Полупрозрачность для IE */
+    opacity: 0.25; /* Полупрозрачность для других браузеров */ 
+}
+
+/*программа подготовки магистратуры 2*/
+.prog_prep_mag2{
+
+    position: absolute;
+    font-family: 'Glegoo';
+    font-weight: bold;
+    font-size: 20px;
+    text-transform:uppercase;/*текст из заглавных букв*/
+    color:#000;
+    top:120px;
+    left: -80px;
+    line-height: 20px;
+
+}
+
+.prog_prep_mag2_n{
+
+    font-weight: normal;
+    font-size: 16px;
+    width:550px;
+    line-height: 30px;
+
+}
+
+/*Ключевые дисциплины магистратура 2*/
+.disc_mag2{
+
+    position: absolute;
+    font-family: 'Glegoo';
+    font-weight: bold;
+    font-size: 20px;
+    text-transform:uppercase;/*текст из заглавных букв*/
+    color:#000;
+    top:120px;
+    left: 550px;
+    line-height: 30px;
+
+}
+
+.disc_mag2_n{
+
+    font-weight: normal;
+    font-size: 14px;
+    width:600px;
+    line-height: 10px;
+
+}
+/*Чему вы научитесь магистратура2*/
+.KNOW_mag2{
+    position: absolute;
+    top:470px;
+    left:-80px;
+    color:#fff;
+    font-weight: bold;
+    line-height: 15px;
+}
+
+.k_mag2{
+
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 15px;
+    width:400px;
+
+}
+
+/*Возможные профессии магистратура 2*/
+.prof_mag2{
+
+    position: absolute;
+    font-family: 'Glegoo';
+    font-weight: bold;
+    font-size: 20px;
+    text-transform:uppercase;/*текст из заглавных букв*/
+    color:#000;
+    top:750px;
+    left: -80px;
+    line-height: 30px;
+
+}
+
+.proffesions_mag2 {
+
+    font-weight: normal;
+    font-size: 16px;
+    width:600px;
+    line-height: 30px;
+
+}
+
+
+/*Преподаватели*/
+.teachers{
+
+    position: absolute;
+    top: 4400px;
+    left: 235px;
+}
+
+.teach{
+
+    font-family: 'Glegoo';
+    font-size: 28px;
+    text-transform:uppercase;/*текст из заглавных букв*/
+
+}
+/*Тень на заднем фоне*/
+.shadow{
+
+    top:30px;
+    width: 1280px;
+    height: 700px;
+    left:-130px;
+    mix-blend-mode: soft-light;
+    filter: alpha(Opacity=25); /* Полупрозрачность для IE */
+    opacity: 0.25; /* Полупрозрачность для других браузеров */ 
+
+}
+
+/*Список учителей*/
+.teachers_list{
+
+    position: absolute;
+    top:80px;
+    left:-50px;
+    color:#000;
+    font-weight: bold;
+
+}
+
+b{font-size: 14px;}
+
+.prof_teachers{
+
+    font-weight: normal;
+    font-size: 14px;
+    width:300px;
+    line-height: 30px;
+}
+
+
+
+/*Студенческая жизнь*/
+.students{
+
+    position: absolute;
+    top: 5250px;
+    left: 235px;
+
+}
+
+.stud_life_name{
+
+    font-family: 'Glegoo';
+    font-size: 28px;
+    text-transform:uppercase;/*текст из заглавных букв*/
+
+}
+
+/*Ряд картинок*/
+
+.slideshow {
+    top:50px;
+    left:-120px;
+    max-width: 100%;
+    width: 1200px;
+    height: 600px;
+    position: relative;
+    overflow: clip;
+    background: #A5BEFF; 
+    margin: 0 0;
+}
+.slideshow-item {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+    animation: slideanim 41s infinite;
+}
+.slideshow-item:nth-child(1),
+.slideshow-item:nth-child(1) img {
+    animation-delay: 0;
+}
+.slideshow-item:nth-child(2),
+.slideshow-item:nth-child(2) img {
+    animation-delay: 7s;
+}
+.slideshow-item:nth-child(3),
+.slideshow-item:nth-child(3) img {
+    animation-delay: 14s;
+}
+.slideshow-item:nth-child(4),
+.slideshow-item:nth-child(4) img {
+    animation-delay: 21s;
+}
+.slideshow-item:nth-child(5),
+.slideshow-item:nth-child(5) img {
+    animation-delay: 27s;
+}
+.slideshow-item:nth-child(6),
+.slideshow-item:nth-child(6) img {
+    animation-delay: 34s;
+}
+.slideshow-item:nth-child(7),
+.slideshow-item:nth-child(7) img {
+    animation-delay: 41s;
+}
+.slideshow-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+}
+
+@keyframes slideanim {
+    12.5%{
+        opacity: 1;
+    }
+    25%{
+        opacity: 1;
+    }   
+    37.5%{
+        opacity: 0;
+    }
+}
+@keyframes zoom {
+    50%{
+        transform: scale(1.3);
+    }   
+}
+
+
+/*Напрвления кафедры*/
+.naprav_kaf {
+
+    position: absolute;
+    top: 6000px;
+    left: -120px;
+}
+
+.comp{
+
+    position: absolute;
+    width: 1410px;
+    height: 800px;
+    mix-blend-mode: overlay;
+}
+
+.kaf{
+
+    position: absolute;
+    font-family: 'Glegoo';
+    font-size: 14px;
+    text-transform:uppercase;/*текст из заглавных букв*/
+    width: 350px;
+    left:430px;
+    top:126px;
+    line-height: 30px;
+
+}
+
+.chek_kaf{
+
+    position: absolute;
+    font-family: 'Glegoo';
+    font-size: 14px;
+    font-weight: bold;
+    width: 425px;
+    left:630px;
+    top:270px;
+    line-height: 20px;
+    color:rgb(50, 35, 35);
+
+}
+
+
+/*Партнеры*/
+.partners{
+
+    position: absolute;
+    top: 6900px;
+    left: 150px;
+
+}
+
+.part_name{
+
+    font-family: 'Glegoo';
+    font-size: 28px;
+    text-transform:uppercase;/*текст из заглавных букв*/
+
+}
+
+.partner{
+
+    position:absolute;
+    left:100px;
+
+}
+
+/*Партнер интерволга*/
+/*Картинка*/
+.img_partner1{
+
+    left:-110px;
+    top:50px;
+    height:90px;
+    width:210px;
+}
+/*Описание*/
+.about_partner1{
+
+
+    position: absolute;
+    left:110px;
+    font-style: 'Glegloo';
+    font-size: 18px;
+    font-weight: bold;
+    width:300px;
+    top:40px;
+
+}
+/*Партнер техно-сервис*/
+/*Картинка*/
+.img_partner2{
+
+    left:410px;
+    top:50px;
+    height:90px;
+    width:210px;
+}
+/*Описание*/
+.about_partner2{
+
+
+    position: absolute;
+    left:630px;
+    font-style: 'Glegloo';
+    font-size: 18px;
+    font-weight: bold;
+    width:200px;
+    top:40px;
+
+}
+/*Партнер id_east*/
+/*Картинка*/
+.img_partner3{
+
+    left:810px;
+    top:50px;
+    height:70px;
+    width:130px;
+}
+/*Описание*/
+.about_partner3{
+
+
+    position: absolute;
+    left:950px;
+    font-style: 'Glegloo';
+    font-size: 18px;
+    font-weight: bold;
+    width:225px;
+    top:40px;
+
+}
+
+/*Партнер институт квантовой механики*/
+/*Картинка*/
+.img_partner4{
+
+    left:-110px;
+    top:200px;
+    height:50px;
+    width:210px;
+}
+/*Описание*/
+.about_partner4{
+
+
+    position: absolute;
+    left:110px;
+    font-style: 'Glegloo';
+    font-size: 18px;
+    font-weight: bold;
+    width:300px;
+    top:185px;
+
+}
+
+/*Партнер vist*/
+/*Картинка*/
+.img_partner5{
+
+    left:410px;
+    top:180px;
+    height:70px;
+    width:170px;
+}
+/*Описание*/
+.about_partner5{
+
+
+    position: absolute;
+    left:600px;
+    font-style: 'Glegloo';
+    font-size: 18px;
+    font-weight: bold;
+    width:225px;
+    top:170px;
+
+}
+
+/*Партнер кельнская школа прикладных наук*/
+/*Картинка*/
+.img_partner6{
+
+    left:-110px;
+    top:300px;
+    height:150px;
+    width:170px;
+}
+/*Описание*/
+.about_partner6{
+
+
+    position: absolute;
+    left:110px;
+    font-style: 'Glegloo';
+    font-size: 18px;
+    font-weight: bold;
+    width:300px;
+    top:340px;
+
+}
+
+/*Партнер техно юг*/
+/*Картинка*/
+.img_partner7{
+
+    left:410px;
+    top:300px;
+    height:70px;
+    width:170px;
+}
+/*Описание*/
+.about_partner7{
+
+
+    position: absolute;
+    left:600px;
+    font-style: 'Glegloo';
+    font-size: 18px;
+    font-weight: bold;
+    width:225px;
+    top:290px;
+
+}
+
+/*Партнер Смарткодер Разработка мобильных приложений*/
+/*Картинка*/
+.img_partner8{
+
+    left:-110px;
+    top:500px;
+    height:150px;
+    width:200px;
+}
+/*Описание*/
+.about_partner8{
+
+
+    position: absolute;
+    left:110px;
+    font-style: 'Glegloo';
+    font-size: 18px;
+    font-weight: bold;
+    width:300px;
+    top:540px;
+
+}
+
+/*Партнер NetVox Lab Разработка, интеграция и аутсорсинг IT-услуг*/
+/*Картинка*/
+.img_partner9{
+
+    left:410px;
+    top:420px;
+    height:140px;
+    width:170px;
+}
+/*Описание*/
+.about_partner9{
+
+
+    position: absolute;
+    left:600px;
+    font-style: 'Glegloo';
+    font-size: 18px;
+    font-weight: bold;
+    width:225px;
+    top:440px;
+
+}
+
+
+
+/*Контакты*/
+.contacs{
+
+    position: absolute;
+    top: 7770px;
+    left: 150px;
+
+}
+
+.cont_name{
+
+    font-family: 'Glegoo';
+    font-size: 28px;
+    font-weight: bolder;
+    text-transform:uppercase;/*текст из заглавных букв*/
+
+}
+
+.info{
+
+    position: absolute;
+    font-family: 'Glegoo';
+    font-size: 28px;
+    top:40px;
+    left:420px;
+    color:#000;
+    width:200px;
+}
+
+.mail{
+    position: absolute;
+    top:60px;
+}
+
+.locat{
+
+    position: absolute;
+    top:120px;
+    width:320px;
+}
+
+/*Местоположение (иконка)*/
+.mail2{
+
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 370px;
+    top: 120px;
+
+}
+
+/* Телефон (иконка)*/
+.phone2{
+
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 370px;
+    top: 60px;
+
+}
+
+.location2{
+
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 370px;
+    top: 180px;
+}
+
+.social{
+
+    position: absolute;
+    font-family: 'Glegoo';
+    font-size: 28px;
+    top:40px;
+    left:900px;
+    color:#000;
+    width:200px;
+
+}
+
+.vk{
+
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 830px;
+    top: 60px;
+
+}
+
+
+.facebook{
+
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 830px;
+    top: 120px;
+
+}
+
+.facebook_t{
+
+    position: absolute;
+    font-family: 'Glegoo';
+    font-size: 28px;
+    top:130px;
+    left:900px;
+    color:#000;
+    width:200px;
+
+}
+
+
+/*Карта*/
+.maps{
+
+    position: absolute;
+    top:300px;
+    left:-10px;
+}
+
+.map {
+
+    padding: 40px 0;
+    text-align: center;
+}
+
+.container {
+    
+    
+}
+
+h2 {
+    font-size: 35px;
+    font-family: 'Glegloo';
+    margin-bottom: 20px;
+}
+
+
+/*Конец страницы*/
+.end{
+
+    position: absolute;
+    top:8450px;
+    left:0px;
+    width:1240px;
+    height: 200px;
+
+
+}
+.fon{
+
+    position: absolute;
+    width: 1518px;
+    height: 200px;
+    background-color: #2f516b;
+    left:0;
+}
+
+.end_menu{
+
+    top:-920px;
+    
+}
+
+.settings_end_menu{
+
+    position: relative;
+    color:#fff;
+    font-size: 12px;
+    left:150px;
+    top:20px;
+    
+}
+#the_end{
+
+    position: absolute;
+    left:150px;
+    top:130px;
+    width:1080px;
+    align-items: center;
+    color:#fff;
+    font-size: 14px;
+
+}
+
+.logo_vol{
+
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 1235px;
+    top: 125px;
+
+}
+
+
+.vk2{
+
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 1290px;
+    top: 125px;
+
+}
+
+
+.facebook2{
+
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 1340px;
+    top: 120px;
+
+}
+
+
+
+
+
+
+
+
+
+
+            
+                <div class = "Software_engineering">
+                <!--img src = "icons/Prog_in.png" class = "Prog_in" id="p1">
+                <img src = "icons/Directions.png" class = "Directions">
+                </div>-->
+            
+                <div class="DierctSoftEng1">
+                <table>
+                    <tr>
+                        <td>09.03.04 – Программная инженерия. Профиль (специализация): разработка программно-информационных систем</td>
+                        <td>09.04.04 – Программная инженерия. Программа: Разработка и внедрение информационно- аналитических систем</td>
+                        <td>09.04.04 – Программная инженерия. Программа: Машинное обучение и интеллектуальный анализ данных</td>
+                    </tr>
+                </table>
+                </div>
+
+                <div class="DierctSoftEng2">
+                <table>
+                    <tr>
+                        <td>05.13.01 Системный анализ, управление и обработка информации (по отраслям)</td>
+                        <td>05.13.12 Системы автоматизации проектирования (по отраслям)</td>
+                        <td>05.13.10 Управление в социальных и экономических системах</td>
+                    </tr>
+                </table>
+                </div>
+            
+          
+            
+                <div class="bakalavr">
+                    <img src = "icons/cpu 1.png" class = "cpu">
+                    <strong class="bak" id="p2">Бакалавриат</strong>
+                    <img src = "icons/analytics 1.png" class = "analytics">
+                    <div class="an">
+                    <p><strong>09.03.04 – Программная инженерия. Профиль (специализация): разработка программно-информационных систем</strong></p>
+                    </div>
+
+                    <div class="subjects">
+                    <strong>Предметы для поступления:<p class="sub">Математика(ЕГЭ),</p><p class="sub"> ФИЗИКА(егэ),</p> <p class="sub">русский язык(егэ)</p></strong>
+                    </div>
+
+                    <div class="prof">
+                        <strong>Возможные профессии<p class="profession">Разработчик программного обеспечения;
+                            Менеджер IT-проекта или IT-продукта;
+                            Аналитик программных систем;
+                            Проектировщик программных систем;
+                            Аналитик данных;
+                            Разработчик мобильных, консольных и компьютерных игр;
+                            Разработчик сайтов;
+                            Тестировщик программных систем. </p></strong>
+                        </div>
+
+                        <div class="key_disciplines">
+                            <strong>Ключевые дисциплины<p class="disciplines">Информатика;Программирование, Качество и надежность ПО, Объектно-ориентированное программирование, Основы разработки WEB-приложений;
+                                Базы данных;Разработка и анализ требований к ПО, Технологии разработки программно-информационных систем, Моделирование программного обеспечения;Основы управления IT-проектами;Тестирование и отладка программного обеспечения;Распределенный контроль версий кода;
+                                Математическое обеспечение программных систем, Машинное обучение. </p></strong>
+                            </div>
+
+
+                </div> 
+            
+                
+                <div class="mag1">
+
+                    <img src = "icons/program 1.png" class = "program">
+                    <img src = "icons/servers 1.png" class = "servers">
+
+                    <strong class="mag1_name" id="p3">Магистратура</strong>
+                    <div class="m1">
+                    <p id="p3_1"><strong>09.04.04 – Программная инженерия. Программа: Разработка и внедрение информационно-аналитических систем</strong></p>
+                    </div>
+
+                    <div class="prog_prepare">
+                    <strong>Программа подготовки:</strong>
+                    <p class="prepare">Направлена для подготовки магистров в области цифровой экономики, 
+                        осуществляющих профессиональную деятельность в сфере разработки программного обеспечения, 
+                        позволяющего автоматизировать задачи анализа и прогнозирования.</p>
+                        <p class="prepare">При этом особое внимание уделяется созданию математических моделей 
+                            цифровой экономики для эффективной разработки конкурентоспособных систем информационно-аналитической 
+                            поддержки управления бизнесом и торговых систем.</p>
+                    </div>
+                    <div class="prof_mag1">
+                    <strong>возможные профессии</strong>
+                    <p class="prof_mag1_n">архитектор информационных систем</p>
+                    <p class="prof_mag1_n"> руководитель разработки программного обеспечения</p>
+                    <p class="prof_mag1_n">системный аналитик</p>
+                </div>
+
+                <div class="disc_mag1">
+                    <strong>ключевые дисциплины</strong>            
+                <p class="disc">Анализ и визуализация данных</p>
+                    <p class="disc">BI-системы</p>
+                        <p class="disc">Реляционные и нереляционные системы баз данных</p>
+                            <p class="disc">Прикладные методы системного анализа и системной инженерии</p>
+                                <p class="disc">Инженерия знаний и принятие решений в программных системах</p>
+                                    <p class="disc">Технологии разработки корпоративных приложений</p>
+                                        <p class="disc">Паттерны проектирования ПО</p>
+                                            <p class="disc">Мобильные и встраиваемые системы</p>
+                                                <p class="disc"> Разработка интеллектуальных и адаптивных интерфейсов </p>
+                                                    <p class="disc">Управление IT-проектами</p>
+                                                    
+                    <p><strong class = "what_know">чему вы научитесь?</strong> </p>
+                    <p class ="knowl_mag1">Анализировать и формализовывать информационную потребность будущих пользователей системы.
+                    Искать и профилировать источники информации.
+                    Выполнять проектирование централизованных хранилищ данных.
+                    Строить витрины данных,  строить системы прогнозирования и интеллектуального анализа данных.
+                    Сопровождать и развивать информационно-аналитические системы.</p>
+
+                </div>
+
+
+                </div>
+
+
+                <div class="mag2">
+
+                    <img src = "icons/chip 1.png" class = "chip">
+                    <img src = "icons/big-data 1.png" class = "big-data">
+
+                    <strong class="mag2_name" id="p3_2">Магистратура</strong>
+                    <div class="m2">
+                    <p><strong>09.04.04 – Программная инженерия. Программа: Машинное обучение и интеллектуальный анализ данных</strong></p>
+                    </div>
+
+                    <div class="prog_prep_mag2">
+                        <strong>программа подготовки</strong>
+                        <p class="prog_prep_mag2_n">Направлена для подготовки магистров по направлениям научных исследований в области 
+                            «Информационная инфраструктура» программы «Цифровая экономика Российской Федерации»</p>
+                    </div>
+
+                    <div class="disc_mag2">
+                        <strong>ключевые дисциплины</strong>
+                        <p class="disc_mag2_n">Обработка естественного языка</p>                            
+                            <p class="disc_mag2_n">Анализ и распознавание изображений</p>
+                            <p class="disc_mag2_n">Методы обработки звука</p>                  
+                            <p class="disc_mag2_n">Нейронные сети</p>
+                            <p class="disc_mag2_n">Прикладные методы системного анализа и системной инженерии</p>
+                            <p class="disc_mag2_n">Инженерия знаний и принятие решений в программных системах</p>
+                            <p class="disc_mag2_n">Разработка интеллектуальных и адаптивных интерфейсов</p>    
+                            <p class="disc_mag2_n">BI-системы</p>                 
+                            <p class="disc_mag2_n">Реляционные и нереляционные системы баз данных</p>
+                            <p class="disc_mag2_n">Паттерны проектирования ПО</p>
+                            <p class="disc_mag2_n">Мобильные и встраиваемые системы</p>
+                    </div>
+
+
+                    <div class="KNOW_mag2">
+                        <table >
+                            <tr>
+                                <td>Чему вы научитесь?</td>
+                                <td><strong>использовать технологии:</strong>
+                                    <p class = "k_mag2">машинного обучения</p>
+                                    <p class = "k_mag2">компьютерного зрения</p>
+                                    <p class = "k_mag2">поиска неструктурированной информации</p>
+                                    <p class = "k_mag2">распознавания текста</p>
+                                    <p class = "k_mag2">распознавания лиц</p>
+                                    <p class = "k_mag2">поддержки принятия решений</p></td>
+                                <td><strong>создавать:</strong>
+                                    <p class = "k_mag2">системы, основанные на знаниях</p>
+                                    <p class = "k_mag2">системы виртуальной реальности</p>
+                                    <p class = "k_mag2">интеллектуальные поисковые и аналитические системы</p></td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="prof_mag2">
+                        <table >
+                            <tr>
+                                <td> <strong>возможные профессии</strong></td>
+                        
+                        <td class="proffesions_mag2">системный аналитик инженер по анализу данных и машинному 
+                            обучению специалист по компьютерной лингвистике разработчик моделей Big Data</td>
+                        </tr>
+                    </table>
+                </div>
+                </div>
+
+                <div class="teachers">
+
+                    <img src = "icons/shadow.png" class = "shadow">
+                    <strong class="teach" id="p5">Преподаватели</strong>
+
+                    <div class="teachers_list">
+                        <table>
+
+                            <tr>
+                                <td><b>Орлова Юлия Александровна</b><p class="prof_teachers"> заведующий кафедрой профессор</p></td>
+                                <td><b>Дворянкин Александр Михайлович</b><p class="prof_teachers">профессор</p></td>
+                                <td><b>Терехов Григорий Владимирович</b><p class="prof_teachers"> старший преподаватель</p></td>
+                                <td><b>Дмитриев Александр Сергеевич</b><p class="prof_teachers"> старший преподаватель</p></td>
+                            </tr>
+                            <tr>
+                                <td><b>Петровский Алексей Борисович</b><p class="prof_teachers"> профессор</p></td>
+                                <td><b>Аникин Антон Викторович</b><p class="prof_teachers">доцент</p> </td>
+                                <td><b>Зубков Александр Владимирович</b><p class="prof_teachers"> преподаватель</p></td>
+                                <td><b>Куликова Яна Владимировна старший</b><p class="prof_teachers"> преподаватель</p></td>
+                            </tr>
+                            <tr>
+                                <td><b>Громов Евгений Геннадьевич</b><p class="prof_teachers"> доцент</p></td>
+                                <td><b>Литовкин Дмитрий Васильевич</b><p class="prof_teachers"> доцент</p></td>
+                                <td><b>Заболеева-Зотова Алла Викторовна</b><p class="prof_teachers"> профессор</p></td>
+                                <td><b>Шкарупа Алексей Эдуардович</b><p class="prof_teachers">старший преподаватель</p> </td>
+                            </tr>
+                            <tr>
+                                <td><b>Розалиев Владимир Леонидович</b><p class="prof_teachers"> доцент</p></td>
+                                <td><b>Сычев Олег Александрович</b><p class="prof_teachers"> доцент</p></td>
+                                <td><b>Геркушенко Георгий Геннадьевич</b><p class="prof_teachers"> доцент</p></td>
+                                <td><b>Качанов Юрий</b><p class="prof_teachers"> преподаватель</p></td>
+                            </tr>
+                            <tr>
+                                <td><b>Гилка Вадим Викторович</b><p class="prof_teachers"> старший преподаватель</p></td>
+                                <td><b>Гущин Роман Игоревич</b><p class="prof_teachers"> старший преподаватель</p></td>
+                                <td><b>Набока Михаил Викторович</b><p class="prof_teachers"> доцент</p></td>
+                            </tr>
+                            <tr>
+                                <td><b>Зыков Дмитрий Станиславович</b><p class="prof_teachers"> старший преподаватель</p></td>
+                                <td><b>Кузнецова Агнесса Сергеевна</b><p class="prof_teachers"> старший преподаватель</p></td>
+                                <td><b>Беришева Елена Дмитриевна</b><p class="prof_teachers">старший преподаватель</p> </td>
+                            </tr>
+                        </table>
+                    </div>
+
+
+                </div>
+
+                <div class="students">
+                    <strong class="stud_life_name" id="p6">Будни студента кафедры поас</strong>   
+                    
+                    <div class="slideshow">
+                        <div class="slideshow-item">
+                            <img src="pictures/BjBCeBILaBQ.jpg" alt="">
+                        </div>
+                        <div class="slideshow-item">
+                            <img src="pictures/c09rg3FZm-w.jpg" alt="">
+                        </div>
+                        <div class="slideshow-item">
+                            <img src="pictures/FkX117XIG2A.jpg" alt="">
+                        </div>
+                        <div class="slideshow-item">
+                            <img src="pictures/h4ore8OOs1U.jpg" alt="">
+                        </div>
+                        <div class="slideshow-item">
+                            <img src="pictures/JUDu6dLWSjc.jpg" alt="">
+                        </div>
+                        <div class="slideshow-item">
+                            <img src="pictures/nP5ih0nRxCE.jpg" alt="">
+                        </div>
+                        <div class="slideshow-item">
+                            <img src="pictures/p1l3Md3rM70.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="naprav_kaf">
+
+                    <img src = "icons/Картинка.png" class = "comp">
+
+                    <div class="kaf" id="p4_1">
+                    <strong>Кафедра ведет работу по следующим научным направлениям:</strong>
+                    </div>
+                    <div class="chek_kaf">
+                    <p>1 - Искусственный интеллект и компьютерная лингвистика.</p>
+                    <p>2 - Разработка математических моделей синтеза и анализа проектных решений в поисковом конструировании.</p>
+                    <p>3 - Интеллектуальная поддержка принятия решений по управлению сложными системами.</p>
+                    <p>4 - E-Inclusion: разработка адаптивных мобильных приложений для людей с ограниченными возможностями.</p>
+                    <p>5 - Современные информационные технологии в образовании.</p>
+                    <p>6 - Развитие и применение ERP-систем.</p>
+                    </div>
+
+                </div>
+
+                <div class="partners">
+
+                    <div class="part_name"> <strong id="p4_2">Партнеры:</strong> </div>
+
+                    <div class="partner">
+                                <a href="https://www.intervolga.ru/" target="_blank"><img src = "partners/intervolga.jpg" alt="" class="img_partner1"></a>
+                                <p class="about_partner1"><a>Интернет-агенство "Интерволга" Разработка сайтов, реклама в интернете, готовые решения</a></p>
+                    
+                                <p><a href="http://www.tehno34.ru/" target="_blank"><img src = "partners/techno34.jpg" alt="" class="img_partner2"></a></p>
+                                    <p class="about_partner2"><a>Техно-сервис LTD Услуги монтажа</a></p>
+
+                                <p><a href="https://id-east.ru/" target="_blank"><img src = "partners/id_east.jpg" alt="" class="img_partner3"></a></p>
+                                <p class="about_partner3"><a>iD EAST Разработка мобильных приложений</a></p>
+                                
+                                <p><a href="https://www.ikm.uni-hannover.de/" target="_blank"><img src = "partners/institut_kvant_mech.jpg" alt="" class="img_partner4"></a></p>
+                                    <p class="about_partner4"><a>Institut für Kontinuumsmechanik (Институт квантовой механики)</a></p>
+
+                                <p><a href="http://vist-shop.ru/" target="_blank"><img src = "partners/vist.jpg" alt="" class="img_partner5"></a></p>
+                                <p class="about_partner5"><a>Вист Компьютерный магазин</a></p>
+
+                                <p><a href="https://www.th-koeln.de/" target="_blank"><img src = "partners/logofhksolo.jpg" alt="" class="img_partner6"></a></p>
+                                    <p class="about_partner6"><a>Fachhochschule Köln (Кёльнская высшая школа прикладных наук)</a></p>
+
+                                <p><a href="https://tekno-yug-it-kompaniya.vsite.biz/" target="_blank"><img src = "partners/technosouth.jpg" alt="" class="img_partner7"></a></p>
+                                <p class="about_partner7"><a>Текно юг Банковские системы, онлайн платежи</a></p>
+
+                                <p><a href="http://corp.jagplay.ru/" target="_blank"><img src = "partners/jagplay.jpg" alt="" class="img_partner8"></a></p>
+                                    <p class="about_partner8"><a>Смарткодер Разработка мобильных приложений</a></p>
+
+                                <p><a href="https://www.netvoxlab.ru/" target="_blank"><img src = "partners/netvoxlab.jpg" alt="" class="img_partner9"></a></p>
+                                <p class="about_partner9"><a>NetVox Lab Разработка, интеграция и аутсорсинг IT-услуг</a></p>
+
+                    </div>
+                
+
+                </div>
+
+                <div class="contacs">
+
+                    <div class="cont_name"> <strong id="p4_3">Контакты:</strong> </div>
+                    
+                    <img src = "icons/phone2.png" class = "phone2">
+                    <p class="info"><a><strong>(8442)-24-84-86</strong></a></p>
+
+                    <img src = "icons/mail2.png" class = "mail2">
+                    <p class="info"><a class="mail" href="https://mail.yandex.ru/" target="_blank"><strong>poas@vstu.ru</strong></a></p>
+
+                    <img src = "icons/location2.png" class = "location2">
+                    <p class="info"><a class="locat">ауд. 904, корпус В 400131, пр. им. Ленина, 28а, Волгоград, Россия</a></p>
+
+                    <img src = "icons/vk.png" class = "vk">
+                    <p class="social"><a href="https://vk.com/vstu_poas" target="_blank"><strong>https://vk.com/vstu_poas</strong> </a></p>
+
+                    <img src = "icons/facebook.png" class = "facebook">
+                    <p><a class="facebook_t" href="https://facebook.com/poasv" target="_blank" ><p><strong>https://facebook.com/poasv</strong> </p></a></p>
+
+
+                    <div class="maps">
+
+
+                        <div class="map">
+                            <div class="container">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2632.553327341275!2d44.52603391563446!3d48.714017879273555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x411ab45c3c7b6fe1%3A0x110070884ff108d0!2z0KTQk9CR0J7QoyDQktCeIMKr0JLQvtC70LPQvtCz0YDQsNC00YHQutC40Lkg0LPQvtGB0YPQtNCw0YDRgdGC0LLQtdC90L3Ri9C5INGC0LXRhdC90LjRh9C10YHQutC40Lkg0YPQvdC40LLQtdGA0YHQuNGC0LXRgsK7!5e0!3m2!1sru!2sru!4v1657044364841!5m2!1sru!2sru" width="800" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                        
+                    </div>
+                            
+
+                </div>
+
+
+                <div class="end">
+                <img src="icons/proz_fon.png" class="fon">
+                    <div class="end_menu">
+                        <table>
+                            <tr>
+                                <td><a href="#p0" class="settings_end_menu" >Главная</a></td>
+                                <td><a href="#p1"  class="settings_end_menu">Направления обучения</a></td>
+                                <td><a href="#p4_1"  class="settings_end_menu">Научные направления кафедры</a></td>
+                                <td><a href="#p5"  class="settings_end_menu">Преподаватели</a></td>
+                            </tr>
+                            <tr>
+                                <td><a class="settings_end_menu"></a></td>
+                                <td><a href="#p2"  class="settings_end_menu">Бакалавриат</a></td>
+                                <td><a href="#p4_2"  class="settings_end_menu">Партнеры</a></td>
+                                <td><a href="#p6"  class="settings_end_menu">Студенческая жизнь</a></td>
+                            
+                            </tr>
+                                <td><a class="settings_end_menu"></a></td>
+                                <td><a href="#p3"  class="settings_end_menu">Магистратура</a></td>
+                            </tr>
+                    </div>
+
+                    <div id="the_end"><p>&copy;Данный сайт был разработан студентом группы ПрИн-267 Николаенко С.Д. в рамках “Учебной практики -Лендинг” на кафедре ПОАС ВолгГТУ в 2022 году</p></div>
+                        <a href="https://facebook.com/poasv" target="_blank"><img src = "icons/facebook.png" class = "facebook2"></a>
+                        <a href="https://vk.com/vstu_poas" target="_blank"><img src = "icons/vk.png" class = "vk2"></a>
+                        <a href="https://www.vstu.ru/" target="_blank"><img src = "icons/volpng.png" class = "logo_vol"></a>
+                    </div>
+
+            </div>
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script src="assets/js/app.js"></script>
+
+  
+
