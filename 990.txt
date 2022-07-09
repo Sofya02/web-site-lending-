@@ -1,0 +1,809 @@
+/* Большие экраны ----------- */
+@media only screen  and (min-width: 1824px) {
+  /* стили */
+  
+  }
+  
+@media (min-width: 990px) and (max-width: 1224px) {
+
+
+  body{
+      
+      margin:0;
+      display: block;
+      width: 100%;
+
+  }
+
+
+  .top{
+
+      position: absolute;
+      top:20px;
+      left: 40px;
+      
+  }
+  
+  /*логотип*/
+  img {
+  
+      position: absolute;
+      width: 470;/*470px*/
+      height: 190;/*190px*/
+      left:170px;
+  
+  }
+  
+  /*Заголовок сайта*/
+  h1 {
+          
+      position: absolute;
+      width: 280px;
+      left: 660px;
+      top: 0px;
+      font-size: 40px;
+
+  }
+
+  /*линия*/
+  .line,.line2{
+  
+      display: none; 
+  }
+  
+  
+  /*фоновая картинка робота*/
+  .robot{
+      display: none;
+  }
+  
+  
+  /*Меню*/
+  .menu{
+  
+      position: absolute;
+      top:237px;
+      width:100%;/* max-width:1518px;*/
+      left:0px;
+      
+  }
+  nav {
+      width: 100%;
+  
+      }
+      
+      .topmenu > li {
+      left:40px;
+      }
+      .topmenu > li:last-child {border-right: 1px solid rgb(61, 108, 145);}
+      .topmenu > li > a {
+      font-size: 14px;
+      }
+
+  /**/
+      .main_block{
+      position: absolute;
+      top:356px;
+      left:530px;
+      }
+  
+      .poas{
+  
+      font-size: 18px;
+      width: 380px;
+  
+      }
+  
+      .soft_kar{
+
+      top:-35px;
+      left:-470px;/*-740*/
+      height: 250px;
+      width:450px;
+  }
+  
+  /*Направления */
+  
+  /*Картинка*/
+  .Prog_in {
+  
+      width: 230px;
+      height: 250px;
+      left: 80px;
+      top: 700px;
+  }
+  /*Напрвления*/
+  .Directions{
+  
+      width: 500px;
+      height: 250px;
+      left: 378px;
+      top: 685px;
+  
+  }
+      
+  .DierctSoftEng1{
+
+      position: absolute;
+      left: 80px;
+      top: 1010px;
+
+  }
+
+  .DierctSoftEng2{
+
+      position: absolute;
+      left: 80px;
+      top: 1200px;
+
+  }
+      
+  table {
+
+      font-size: 16px;
+      width: 800px;
+  }
+      
+  /*Бакалавриат*/
+  .bakalavr {
+  
+      position: absolute;
+      top: 1400px;
+      left: 40px;
+  }
+  /*картинка правый верхний угол*/
+  .cpu{
+  
+      top:10px;
+      width: 450px;
+      height: 450px;
+      left:-10px;
+      mix-blend-mode: color-dodge;
+  }
+  /*картинка левый нижний угол*/
+  .analytics{
+  
+      display:none;
+  }
+  
+  .bak{
+
+      font-size: 20px;
+  }
+  
+  .an{
+
+      font-size: 16px;
+      left:0px;
+      width:800px;
+  }
+  
+  /*Предметы для поступления*/
+  .subjects{
+  
+      font-size: 14px;
+      left:0px;
+      width:300px;
+      line-height: 25px;
+  }
+  
+  .sub{
+      line-height: 15px;
+  }
+  
+  .prof{
+  
+      font-size: 14px;
+      top:280px;
+      left:0px;
+  }
+  
+  .profession{
+
+      line-height: 30px;
+  }
+  
+  .key_disciplines{
+
+      font-size: 14px;
+      top:110px;
+      left:500px;
+      line-height: 20px;
+  }
+  
+  .disciplines{
+      line-height: 30px;
+      width:400px;
+  
+  }
+  
+  /*Магистратура1*/
+  .mag1 {
+  
+      top: 2010px;
+      left: 40px;
+  }
+  
+  .mag1_name{
+  
+      font-size: 20px;
+  }
+  
+  .m1{
+  
+      font-size: 16px;
+      left:0px;
+      width:800px;
+  }
+  
+  
+  /*картинка в которую вставлен текст()*/
+  .program{
+  
+      top:110px;
+      width: 345px;
+      height: 345px;
+      left:-40px;
+      mix-blend-mode: color-dodge;
+  }
+  /*Текст в картинке "программа подготовки"*/
+  .prog_prepare{
+  
+      position: absolute;
+      font-family: 'Glegoo';
+      font-weight: bold;
+      font-size: 12px;
+      text-transform:uppercase;/*текст из заглавных букв*/
+      color:#000;
+      top:200px;
+      left: -15px;
+      line-height: 20px;
+  }
+  
+  .prepare{
+  
+      font-weight: normal;
+      font-size: 10px;
+      line-height: 15px;
+      width:300px;
+  }
+  
+  .prof_mag1{
+  
+      font-size: 14px;
+      top:450px;
+      left: -20px;
+  
+  }
+  
+  .prof_mag1_n{
+      font-size: 12px;
+      line-height: 15px;
+  }
+  
+  .disc_mag1{
+  
+      font-size: 12px;
+      top:120px;
+      left:400px;  
+  }
+  
+  .disc{
+
+      font-size: 12px;
+      width:450px;
+      line-height: 15px;
+  
+  }
+  
+  .knowl_mag1{
+
+      font-size: 14px;
+      width:400px;
+      line-height: 15px;
+  
+  }
+  
+  /*фоновое изображение*/
+  .servers{
+      display: none;
+  }
+  
+  
+  /*Магистратура1*/
+  .mag2 {
+  
+      top: 2775px;
+      left: 40px;
+  }
+  
+  .mag2_name{
+
+      font-size: 20px;
+  }
+  
+  .m2{
+  
+      font-size: 16px;
+      top:40px;
+      left:0px;
+      width:800px;
+  }
+  
+  /*фоновая картинка верхний правый угол*/
+  .chip{
+      left:10px;
+  }
+  /*фоновая картинка нижний левый угол*/
+  .big-data{
+  
+      display: none;
+  }
+  
+  /*программа подготовки магистратуры 2*/
+  .prog_prep_mag2{
+
+      font-size: 14px;
+      top:120px;
+      left: 0px;
+  
+  }
+  
+  .prog_prep_mag2_n{
+  
+      font-size: 12px;
+      line-height: 20px;
+      width:400px;
+  }
+  
+  /*Ключевые дисциплины магистратура 2*/
+  .disc_mag2{
+  
+      font-size: 14px;
+      top:120px;
+      left: 450px;
+      line-height: 20px;
+  
+  }
+  
+  .disc_mag2_n{
+  
+      font-size: 12px;
+      width:400px;
+      line-height: 10px;
+  
+  }
+  /*Чему вы научитесь магистратура2*/
+  .KNOW_mag2{
+      top:410px;
+      left:10px;
+  }
+  
+  .k_mag2{
+  
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 15px;
+      width:370px;
+  
+  }
+  
+  /*Возможные профессии магистратура 2*/
+  .prof_mag2{
+      font-size: 14px;
+      top:650px;
+      left: 0px;
+  
+  }
+  
+  .proffesions_mag2 {
+  
+      font-size:12px;
+      width:500px;
+      line-height: 20px;
+  
+  }
+  
+  
+  /*Преподаватели*/
+  .teachers{
+  
+      top: 3570px;
+      left: 40px;
+  }
+  
+  .teach{
+  
+      font-size: 20px;
+  
+  }
+  /*Тень на заднем фоне*/
+  .shadow{
+  
+      display: none;
+  
+  }
+  
+  /*Список учителей*/
+  .teachers_list{
+  
+      top:80px;
+      left:-10px;
+  }
+
+  tr{
+      display: inline;
+  }
+  
+  b{font-size: 9px;}
+  
+  .prof_teachers{
+  
+      font-size: 9px;
+      width:225px;
+      line-height: 10px;
+  }
+  
+  
+  /*Студенческая жизнь*/
+  .students{
+  
+      top: 4090px;
+      left: 40px;
+  
+  }
+  
+  .stud_life_name{
+  
+      font-size: 20px;
+  }
+  
+  /*Ряд картинок*/
+  
+  .slideshow {
+      top:50px;
+      width: 800px;
+      height: 500px;
+      left: -90px;
+  }
+  
+
+  /*Напрвления кафедры*/
+  .naprav_kaf {
+  
+      position: absolute;
+      top: 4590px;
+      left: -400px;
+  }
+  
+  .comp{
+  
+      display: none;
+  }
+  
+  .kaf{
+  
+      font-size: 18px;
+      width: 800px;
+  }
+  
+  .chek_kaf{
+
+      font-size: 18px;
+      width: 600px;
+      left:630px;
+      top:200px;
+  
+  }
+  
+  
+  /*Партнеры*/
+  .partners{
+  
+      top: 5225px;
+      left: 40px;
+  
+  }
+  
+  .part_name{
+
+      font-size: 20px;
+  
+  }
+  
+  .partner{
+  
+      position:absolute;
+      left:100px;
+  
+  }
+  
+  /*Партнер интерволга*/
+  /*Картинка*/
+  .img_partner1{
+  
+      left:-110px;
+      top:50px;
+  }
+  /*Описание*/
+  .about_partner1,  .about_partner2,  .about_partner3,  .about_partner4,  .about_partner5,  .about_partner6,  .about_partner7,  .about_partner8,  .about_partner9{
+  
+      display:none;
+  }
+  /*Партнер техно-сервис*/
+  /*Картинка*/
+  .img_partner2{
+  
+      left:210px;
+      top:50px;
+  
+  }
+  /*Партнер id_east*/
+  /*Картинка*/
+  .img_partner3{
+  
+      left:510px;
+      top:50px;
+      
+  }
+  
+  /*Партнер институт квантовой механики*/
+  /*Картинка*/
+  .img_partner4{
+  
+      left:-110px;
+      top:200px;
+
+  }
+  /*Партнер vist*/
+  /*Картинка*/
+  .img_partner5{
+  
+      left:210px;
+      top:180px;
+      
+  }
+  
+  /*Партнер кельнская школа прикладных наук*/
+  /*Картинка*/
+  .img_partner6{
+  
+      left:-110px;
+      top:300px;
+      
+  }
+  /*Партнер техно юг*/
+  /*Картинка*/
+  .img_partner7{
+  
+      left:510px;
+      top:180px;
+  
+  }
+  /*Партнер Смарткодер Разработка мобильных приложений*/
+  /*Картинка*/
+  .img_partner8{
+  
+      left:510px;
+      top:300px;
+  
+  }
+
+  /*Партнер NetVox Lab Разработка, интеграция и аутсорсинг IT-услуг*/
+  /*Картинка*/
+  .img_partner9{
+  
+      left:210px;
+      top:310px;
+      
+  }
+
+  
+  
+  /*Контакты*/
+  .contacs{
+  
+      top: 5850px;
+      left: 40px;
+  
+  }
+  
+  .cont_name{
+  
+      font-size: 20px;
+  
+  }
+  
+  .info{
+  
+      font-size: 16px;
+      top:40px;
+      left:40px;
+  }
+  
+  .mail{
+      top:40px;
+  }
+  
+  .locat{
+  
+      top:80px;
+  }
+  
+  .social{
+
+      font-size: 16px;
+      left:500px;
+  }
+  
+  .facebook_t{
+  
+      font-size: 16px;
+      top:130px;
+      left:500px;
+      width:200px;
+  
+  }
+  
+      /*Местоположение (иконка)*/
+  .mail2{
+
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      left: 10px;
+      top: 95px;
+
+  }
+
+  /* Телефон (иконка)*/
+  .phone2{
+
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      left: 10px;
+      top: 55px;
+
+  }
+
+  .location2{
+
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      left: 10px;
+      top: 140px;
+  }
+
+
+
+  .vk{
+
+      position: absolute;
+      width: 25px;
+      height: 25px;
+      left: 460px;
+      top: 50px;
+  
+  }
+  
+  
+  .facebook{
+  
+      position: absolute;
+      width: 30px;
+      height:30px;
+      left: 460px;
+      top: 120px;
+  
+  }
+
+  
+  /*Карта*/
+  .maps{
+  
+      position: absolute;
+      top:210px;
+      left:10px;
+  }
+  
+  .map {
+  
+      padding: 40px 0;
+      text-align: center;
+  }
+  
+  .container {
+      max-width: 600px;
+      width: 400px;
+  }
+  
+  h2 {
+      font-size: 25px;
+  }
+  
+  
+  /*Конец страницы*/
+  .end{
+  
+      position: absolute;
+      top:6500px;
+      left:0px;
+      width:100%;
+      height: 250px;
+  
+  
+  }
+  .fon{
+  
+      position: absolute;
+      width: 100%;
+      height: 250px;
+      background-color: #2f516b;
+      left:0;
+  }
+  
+  .end_menu{
+  
+      top:-900px;
+      
+  }
+  
+  .settings_end_menu{
+  
+      position: relative;
+      color:#fff;
+      font-size: 10px;
+      left:40px;
+  }
+
+  #the_end{
+  
+      position: absolute;
+      left:40px;
+      top:170px;
+      width:600px;
+      align-items: center;
+      color:#fff;
+      font-size: 14px;
+  
+  }
+
+  .vk2{
+      width: 25px;
+      height: 25px;
+      left: 750px;
+      top: 175px;
+  
+  }
+  
+  
+  .facebook2{
+
+      width: 30px;
+      height: 30px;
+      left: 780px;
+      top: 170px;
+  
+  }
+
+  .logo_vol{
+
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      left: 705px;
+      top: 170px;
+  
+  }
+  
+  
+  
+  
+
+}
+
+@media (max-width: 770px) {}
+
+@media (max-width: 575px) {}
